@@ -1,0 +1,43 @@
+.header{
+    background-color: #ffdc2e;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header h2{
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+}
+.mode{
+    border: 2px solid #fff;
+    background-color: #ffdc2e;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.dark{
+    background-color: #141414;
+    transition: 1s all ease;
+    color: #ffdc2e;
+  }
+.head-dark{
+    background-color: #253529;
+    color: #ffdc2e;
+    transition: 1s all ease;
+}
+.normal{
+    transition: 1s all ease;
+}
+.buttonStyles{
+    background-color: #253529;
+    border: 1px solid white;
+}
+.main-style{
+      color: black;
+      transition: 1s all ease;
+
+}

@@ -1,0 +1,89 @@
+.main{
+    padding: 10rem;
+}
+form{
+    margin: 1.8rem auto;
+    width: 30%;
+    padding: 1.6rem;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    position: relative;
+}
+form input, textarea{
+    display: block;
+    outline: none;
+    border: none;
+    position: relative;
+}
+form input{
+    font-weight: bold;
+}
+
+input, textarea{
+    display: block;
+    margin-top: 0.1rem;
+    width: 100%;
+    padding: 0.5rem;
+    outline: white;
+    background-color: white;
+    border: 0;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+.add{
+    border: 0;
+    position: absolute;
+    bottom: -11px;
+    right: 50px;
+    height: 70px;
+    width:70px;
+    /* padding: 1.1rem; */
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    position: relative;
+
+}
+.final-notes{
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    width: 70%;
+    height: 190px;
+    margin: 2rem auto;
+    border-radius: 6px;
+    position: relative;
+}
+.delete{
+    border: 0;
+    position: absolute;
+    bottom: -12px;
+    right: 50px;
+    height: 45px;
+    width:45px;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dark{
+    background-color: #141414;
+    color: white;
+    transition: 1s all ease;
+   
+  }
+.add-style{
+    background-color: #253529;
+    color: #ffdc2e;
+    transition: all ease 1s;
+}
